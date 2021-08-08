@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Impacto (Contacto)</title>
+    <meta name="description" content="Somos un servicio de consultoría para que emprendedores, compañías y organizaciones implementen una estrategia comercial que busca incorporar, promover y comunicar los valores reales de una marca con compromiso real por la sostenibilidad.">
+    <meta name="keywords" content="Emprendimiento, Medio Ambiente, IMPACTO SOCIAL, IMPACTO AMBIENTAL, PROGRAMA AMBIENTAL, ESTRATEGIA DE MARKETING Y COMUNICACIÓN, MARKETING DIGITAL Y REDES SOCIALES, Pequeñas y medianas empresas, Grandes empresas ">
+    <link rel="icon" href="./Fotos/Logo.png">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./scss/style.scss"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="header__margin">
+        <ul>
+            <li class="header__menu"><a href="index.html">INICIO</a>
+                <ul class="header__subMenu">
+                  <li class="header__nav"><a href="index.html#equipo">Equipo</a></li>
+                  <li class="header__nav"><a href="index.html#manifiesto">Nuestro Manifiesto</a></li>
+                </ul>
+            </li>
+            <li class="header__menu"><a href="servicios.html">SERVICIOS</a>
+                <ul class="header__subMenu">
+                    <li class="header__nav"><a href="servicios.html#sociales">Programas Sociales</a></li>
+                    <li class="header__nav"><a href="servicios.html#ambientales">Programas Ambientales</a></li>
+                    <li class="header__nav"><a href="servicios.html#formación">Formación</a></li>
+                    <li class="header__nav"><a href="servicios.html#estrategia">Estrategia De comunicación</a></li>
+                    <li class="header__nav"><a href="servicios.html#marketing">Estrategia De comunicación Y RRSS</a></li>
+                </ul>
+            </li>
+             <li class="header__menu"><a href="triple_impacto.html">TRIPLE IMPACTO</a></li>
+           <li class="header__menu"><a href="contacto.html">CONTACTO</a></li>
+           <img class="header__logo" src="./Fotos/Logo.png" alt="Logo de Triple Impacto">
+        </ul>
+    </nav>
+  </header>
+    <main>
+        <div class="container">
+            <h2>Contactanos:</h2>
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+              </div>
+              <div class="form-group">
+                <label for="last_name">Apellido</label>
+                <input type="last_name" class="form-control" id="last_name" placeholder="Enter Last Name" name="last_name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+              </div>
+              <div class="form-group">
+                <div class="form-group">
+                     <label for="birthDate">Fecha de nacimiento:</label> <br>
+                     <input ch-input=""  type="date" id="birthDate" ng-model="checkoutTmp.user.profile.bday" ng-change="vm.onChangeBday()" required="">
+                </div>
+                <div class="form-group">
+                    <label for="dni">Número de identificación (DNI):</label>
+                    <input type="dni" class="form-control" id="dni" placeholder="Enter DNI" name="dni">
+                </div>
+                <label for="sel1">Provincia:</label>
+                <select class="form-control" id="provincia">
+                    <option>Buenos Aires</option>
+                    <option>Catamarca</option>
+                    <option>Chaco</option>
+                    <option>Chubut</option>
+                    <option>Córdoba</option>
+                    <option>Corrientes</option>
+                    <option>Entre Ríos</option>
+                    <option>Formosa</option>
+                    <option>Jujuy</option>
+                    <option>La Pampa</option>
+                    <option>La Rioja</option>
+                    <option>Mendoza</option>
+                    <option>Misiones</option>
+                    <option>Neuquén</option>
+                    <option>Río Negro</option>
+                    <option>Salta</option>
+                    <option>San Juan</option>
+                    <option>San Luis</option>
+                    <option>Santa Cruz</option>
+                    <option>Santa Fe</option>
+                    <option>Santiago del Estero</option>
+                    <option>Tierra del Fuego</option>
+                    <option>Tucumán</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="comment">Comentario:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="">Desea Recibir El Newsletter
+                </label>
+              </div> 
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> Recuerdame
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="reset" class="btn btn-primary">Borrar</button>
+            </form>
+          </div><br>
+    </main>
+    <footer>
+      <div class="footer">
+          <div class="footer__privacidad">
+              <div>Preguntas Frecuentes</div>
+              <div>Politca de Privacidad</div>
+          </div>
+          <div class="footer__rrss">
+              <div><img class="footer__img" src="./Fotos/ig.png" alt="Instagram"></div>
+              <div><img class="footer__img" src="./Fotos/yt.png" alt="Youtube"></div>
+              <div><img class="footer__img" src="./Fotos/twt.png" alt="Twitter"></div>
+              <div><img class="footer__img" src="./Fotos/fb.png" alt="Facebook"></div>
+          </div>
+          <div class="footer__contacto">Contacto
+              <div><img class="footer__imgDos" src="./Fotos/tel.png" alt="Telefono"> +54 9 55 555 5555</div>
+              <div><img class="footer__imgDos" src="./Fotos/mail.png" alt="Mail"> contacto@tripleimpacto@gmail.com</div>
+              <div><img class="footer__imgDos" src="./Fotos/ubi.png" alt="Ubicacion"> Catamarca 350, Capital Federal</div>
+              <div><img class="footer__imgDos" src="./Fotos/reloj.png" alt="Reloj"> 8:00 - 18:00</div>
+          </div>
+      </div>
+  </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

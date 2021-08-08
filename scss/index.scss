@@ -1,0 +1,81 @@
+/* Index */
+.paragraph{
+    color: $color-green;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0.5cm;
+}
+.paragraph__Text--FontSize{
+    font-size: 24px;
+    border: 1px solid $color-green;
+    background-color: $color-green;
+    color: white;
+    margin: 1cm 15cm 1cm 15cm;
+}
+.paragraph__Text{
+    font-size: 22px;
+    margin-top: 0.5cm;
+}
+.paragraph__Img{
+    height: 100px;
+    margin: 0.65cm 1.5cm 0.65cm 3cm;
+}
+@for $i  from 1 through 6 {
+    #img#{$i}{
+        width: 150px;
+    }
+}
+main section span{
+    text-align: center;
+    margin: 0.65cm 2cm 0.65cm 3.4cm;
+}
+
+#carouselExampleSlidesOnly{
+    width: 99%;
+    position: absolute;
+    top: 47%;
+    left: -5%;
+}
+#blur{
+    background-image: url(../Fotos/Fondo.png);
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+    z-index: -1;
+    filter:blur(3px);
+    -o-filter:blur(3px);
+    -ms-filter:blur(3px);
+    -moz-filter:blur(3px);
+    -webkit-filter:blur(3px);
+    }
+.fondo-text{
+    font-size: 25px;
+    font-weight: bold;
+    top: 10.4%;
+    left: 27%;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 10px;
+    color: whitesmoke;
+}
+.animate__backInDown{
+    animation-duration: 2s; 
+    width: 100%;
+    position: absolute;
+    top: 18%;
+}
+.animate__fadeIn{
+    animation-duration: 5s;
+}
+
+.fondo_tittle{
+    font-size: 75px;
+    color: rgb(0, 226, 19);
+}
+.carousel-item{
+   left: 38%;
+   width: 100%;
+}
+.carousel-caption{
+    top: 19%;
+}

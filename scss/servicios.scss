@@ -1,0 +1,28 @@
+/* Servicios */
+.servicios{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+.servicios__row{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5cm 5cm 0.5cm 5cm;
+    width: 26cm;
+}
+.servicios__margin{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 0.5cm 0 1cm;
+}
+.servicios__margin--margin{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 10cm 0cm 1cm;
+}
+

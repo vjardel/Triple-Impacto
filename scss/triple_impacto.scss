@@ -1,0 +1,24 @@
+/* Triple Impacto */
+.tripleImpacto{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+.tripleImpacto__row{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    margin: 0.5cm 5cm 0.5cm 5cm;
+    justify-content: center
+}
+.tripleImpacto__column{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 0.5cm 0 1cm;
+}
+.tripleImpacto__img{
+    height: 300px;
+    width: 320px;
+}
