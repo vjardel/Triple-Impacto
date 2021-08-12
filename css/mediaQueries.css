@@ -1,0 +1,7 @@
+/* Para dispositivos con pantallas pequeñas, como los teléfonos en modo vertical */
+@media only screen and (max-width: 479px) {
+    .logo {
+      width: 40px; 
+      align-items: flex-end;
+    } 
+  }
