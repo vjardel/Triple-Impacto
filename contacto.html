@@ -20,30 +20,51 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <header class="header">
-    <nav class="header__margin">
-        <ul>
-            <li class="header__menu"><a href="index.html">INICIO</a>
-                <ul class="header__subMenu">
-                  <li class="header__nav"><a href="index.html#equipo">Equipo</a></li>
-                  <li class="header__nav"><a href="index.html#manifiesto">Nuestro Manifiesto</a></li>
+  <header class="conteiner">
+    <nav id="paddingContact" class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 <strong>Inicio</strong>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html#equipo"> Equipo</a></li>
+                  <li><a class="dropdown-item" href="index.html#manifiesto">Nuestro Manifiesto</a></li>
                 </ul>
-            </li>
-            <li class="header__menu"><a href="servicios.html">SERVICIOS</a>
-                <ul class="header__subMenu">
-                    <li class="header__nav"><a href="servicios.html#sociales">Programas Sociales</a></li>
-                    <li class="header__nav"><a href="servicios.html#ambientales">Programas Ambientales</a></li>
-                    <li class="header__nav"><a href="servicios.html#formación">Formación</a></li>
-                    <li class="header__nav"><a href="servicios.html#estrategia">Estrategia De comunicación</a></li>
-                    <li class="header__nav"><a href="servicios.html#marketing">Estrategia De comunicación Y RRSS</a></li>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Servicios</strong>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="servicios.html#sociales">Programas Sociales</a></li>
+                  <li><a class="dropdown-item" href="servicios.html#ambientales">Programas Ambientales</a></li>
+                  <li><a class="dropdown-item" href="servicios.html#formación">Formación</a></li>
+                  <li><a class="dropdown-item" href="servicios.html#estrategia">Estrategia De comunicación</a></li>
+                  <li><a class="dropdown-item" href="servicios.html#marketing">Estrategia De comunicación Y RRSS</a></li>
                 </ul>
-            </li>
-             <li class="header__menu"><a href="triple_impacto.html">TRIPLE IMPACTO</a></li>
-           <li class="header__menu"><a href="contacto.html">CONTACTO</a></li>
-           <img class="header__logo" src="./Fotos/Logo.png" alt="Logo de Triple Impacto">
-        </ul>
-    </nav>
-  </header>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="triple_impacto.html"><strong>Triple Impacto</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html"><strong>Contacto</strong></a>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="Fotos/Logo.png" alt="Logo" width="75">
+            </a>
+        </div>
+        </div>
+      </nav>
+</header>
     <main>
         <div class="container">
             <h2>Contactanos:</h2>
@@ -124,7 +145,7 @@
           <div class="footer__rrss">
               <div><img class="footer__img" src="./Fotos/ig.png" alt="Instagram"></div>
               <div><img class="footer__img" src="./Fotos/yt.png" alt="Youtube"></div>
-              <div><img class="footer__img" src="./Fotos/twt.png" alt="Twitter"></div>
+              <div><img class="footer__imgTwt" src="./Fotos/twt.png" alt="Twitter"></div>
               <div><img class="footer__img" src="./Fotos/fb.png" alt="Facebook"></div>
           </div>
           <div class="footer__contacto">Contacto
@@ -140,5 +161,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

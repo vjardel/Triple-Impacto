@@ -6,10 +6,15 @@ $container-max-widths: (
   xxl: 1320px
 );
 /* Index */
+#paddingIndex{
+    padding-right: 3px;
+    padding-left: 3px;
+}
 #blur{
     background-image: url(../Fotos/Fondo.png);
+    width: 100%;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     }
 .fondo-text{
@@ -25,11 +30,9 @@ $container-max-widths: (
     color: rgb(0, 226, 19);
 }
 .alingCarousel{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 35%;
+    left: 30%;
 }
 main section span{
     text-align: center;
@@ -56,87 +59,4 @@ main section span{
     height: 100px;
     margin: 0.65cm 1.5cm 0.65cm 3cm;
     width: 150px;
-}
-
-
-
-
-
-
-@media only screen and (max-width: 480px) {
-#carouselExampleSlidesOnly{
-    float: left;
-    top: 33%;
-    left: -1%;
-}
-#blur{
-    background-image: url(../Fotos/480px/Fondo.jpg);
-    background-repeat: no-repeat;
-    height: 75vh;
-    position: relative;
-    z-index: -1;
-    filter:blur(3px);
-    -o-filter:blur(3px);
-    -ms-filter:blur(3px);
-    -moz-filter:blur(3px);
-    -webkit-filter:blur(3px);
-    }
-.carousel-item{
-   left: -10%;
-   max-width: 360px;
-   height: 184px;
-}
-.carousel-caption{
-    top: -50%;
-}
-.fondo-text{
-    font-size: 12px;
-    font-weight: bold;
-    top: 10.4%;
-    left: 12%;
-    position: absolute;
-    text-align: center;
-    letter-spacing: 5px;
-    color: whitesmoke;
-}
-.animate__backInDown{
-    animation-duration: 2s; 
-    width: 100%;
-    position: absolute;
-    top: 18%;
-}
-.animate__fadeIn{
-    animation-duration: 5s;
-}
-
-.fondo_tittle{
-    font-size: 35px;
-    color: rgb(0, 226, 19);
-}
-main section span{
-    text-align: center;
-    margin: 0.65cm 2cm 0.65cm 3.4cm;
-}
-.paragraph{
-    color: $color-green;
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 0.5cm;
-}
-.paragraph__Text--FontSize{
-    font-size: 24px;
-    border: 1px solid $color-green;
-    background-color: $color-green;
-    color: white;
-    margin: 1cm 15cm 1cm 15cm;
-}
-.paragraph__Text{
-    font-size: 22px;
-    margin-top: 0.5cm;
-}
-.paragraph__Img{
-    height: 100px;
-    margin: 0.65cm 1.5cm 0.65cm 3cm;
-    width: 150px;
-}
 }
