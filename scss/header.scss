@@ -1,43 +1,5 @@
 $color-green: rgb(3, 124, 3);
 /* Header */
-.header{
+body nav{
     background-color: $color-green;
-    height: 2cm;
-    
-}
-
-.header__margin{
-    margin-left: 3cm;
-}
-.header__menu{
-    display: inline-block;
-    position:relative;
-    margin: 0.5cm 1cm 0.5cm 0cm;
-    font-size: 15px 
-}
-.header__subMenu{
-    position: absolute;
-    display: none;
-    background-color: $color-green;
-    width: 3cm;
-}
-.header__nav{
-    display: block;
-    font-size: 10px;
-    margin-bottom: 10px;
-}
-.header__nav:hover ul{
-    display: block;
-}
-
-header nav  ul li:hover ul  {
-    display:block;
-}
-header nav ul  a{
-    text-decoration: none;
-    color: white;}
-.header__logo{
-    float: right;
-    margin-right: 3cm;
-    width: 75px;
 }

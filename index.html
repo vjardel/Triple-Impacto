@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Triple Impacto</title>
     <meta name="description" content="Somos un servicio de consultoría para que emprendedores, compañías y organizaciones implementen una estrategia comercial que busca incorporar, promover y comunicar los valores reales de una marca con compromiso real por la sostenibilidad.">
     <meta name="keywords" content="Emprendimiento, Medio Ambiente, IMPACTO SOCIAL, IMPACTO AMBIENTAL, PROGRAMA AMBIENTAL, ESTRATEGIA DE MARKETING Y COMUNICACIÓN, MARKETING DIGITAL Y REDES SOCIALES, Pequeñas y medianas empresas, Grandes empresas ">
     <link rel="icon" href="./Fotos/Logo.png">
     <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/mediaQueries.css"/>
     <link rel="stylesheet" href="./scss/style.scss"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,45 +18,66 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body >
-    <header class="header">
-        <nav class="header__margin">
-            <ul>
-                <li class="header__menu"><a href="index.html">INICIO</a>
-                    <ul class="header__subMenu">
-                        <li class="header__nav"><a href="#equipo">Equipo</a></li>
-                        <li class="header__nav"><a href="#manifiesto">Nuestro Manifiesto</a></li>
+    <header class="conteiner">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         <strong>Inicio</strong>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="index.html#equipo"> Equipo</a></li>
+                          <li><a class="dropdown-item" href="index.html#manifiesto">Nuestro Manifiesto</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <strong>Servicios</strong>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="servicios.html#sociales">Programas Sociales</a></li>
+                          <li><a class="dropdown-item" href="servicios.html#ambientales">Programas Ambientales</a></li>
+                          <li><a class="dropdown-item" href="servicios.html#formación">Formación</a></li>
+                          <li><a class="dropdown-item" href="servicios.html#estrategia">Estrategia De comunicación</a></li>
+                          <li><a class="dropdown-item" href="servicios.html#marketing">Estrategia De comunicación Y RRSS</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="triple_impacto.html"><strong>Triple Impacto</strong></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html"><strong>Contacto</strong></a>
+                      </li>
                     </ul>
-                </li>
-                <li class="header__menu"><a href="servicios.html">SERVICIOS</a>
-                    <ul class="header__subMenu">
-                        <li class="header__nav"><a href="servicios.html#sociales">Programas Sociales</a></li>
-                        <li class="header__nav"><a href="servicios.html#ambientales">Programas Ambientales</a></li>
-                        <li class="header__nav"><a href="servicios.html#formación">Formación</a></li>
-                        <li class="header__nav"><a href="servicios.html#estrategia">Estrategia De comunicación</a></li>
-                        <li class="header__nav"><a href="servicios.html#marketing">Estrategia De comunicación Y RRSS</a></li>
-                    </ul>
-                </li>
-                 <li class="header__menu"><a href="triple_impacto.html">TRIPLE IMPACTO</a></li>
-               <li class="header__menu"><a href="contacto.html">CONTACTO</a></li>
-               <img class="header__logo" src="./Fotos/Logo.png" alt="Logo de Triple Impacto">
-            </ul>
-        </nav>
+                  </div>
+                  <div class="d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="Fotos/Logo.png" alt="Logo" width="75">
+                    </a>
+                </div>
+                </div>
+              </nav>
       </header>
     <main>
-        <div>
+        <div >
             <div id="blur">&nbsp;</div>
             <div class="animate__backInDown"> <p class="fondo-text"><span class="fondo_tittle">Triple Impacto</span><br>Expertos en estrategias sostenibles</p></div> 
              <div class="animate__fadeIn">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block" src="Fotos/carousel/Imagen-uno.jpeg" alt="First slide" width="560">
+                        <img class="d-block" src="Fotos/carousel/Imagen-uno.jpg" alt="First slide" >
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block " src="Fotos/carousel/Imagen-dos.jpeg" alt="Second slide" width="560">
+                        <img class="d-block " src="Fotos/carousel/Imagen-dos.jpg" alt="Second slide"  >
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block " src="Fotos/carousel/Imagen-tres.jpeg" alt="Third slide" width="560">
+                        <img class="d-block " src="Fotos/carousel/Imagen-tres.jpg" alt="Third slide" >
                     </div>
                     </div>
                 </div>
@@ -106,5 +128,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

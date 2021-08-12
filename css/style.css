@@ -7,89 +7,10 @@ body {
   font-family: 'PT Sans', sans-serif; }
 
 /* Header */
-.header {
-  background-color: #037c03;
-  height: 2cm; }
-
-.header__margin {
-  margin-left: 3cm; }
-
-.header__menu {
-  display: inline-block;
-  position: relative;
-  margin: 0.5cm 1cm 0.5cm 0cm;
-  font-size: 15px; }
-
-.header__subMenu {
-  position: absolute;
-  display: none;
-  background-color: #037c03;
-  width: 3cm; }
-
-.header__nav {
-  display: block;
-  font-size: 10px;
-  margin-bottom: 10px; }
-
-.header__nav:hover ul {
-  display: block; }
-
-header nav ul li:hover ul {
-  display: block; }
-
-header nav ul a {
-  text-decoration: none;
-  color: white; }
-
-.header__logo {
-  float: right;
-  margin-right: 3cm;
-  width: 75px; }
+body nav {
+  background-color: #037c03; }
 
 /* Index */
-.paragraph {
-  color: #037c03;
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 0.5cm; }
-
-.paragraph__Text--FontSize {
-  font-size: 24px;
-  border: 1px solid #037c03;
-  background-color: #037c03;
-  color: white;
-  margin: 1cm 15cm 1cm 15cm; }
-
-.paragraph__Text {
-  font-size: 22px;
-  margin-top: 0.5cm; }
-
-.paragraph__Img {
-  height: 100px;
-  margin: 0.65cm 1.5cm 0.65cm 3cm; }
-
-#img1 {
-  width: 150px; }
-
-#img2 {
-  width: 150px; }
-
-#img3 {
-  width: 150px; }
-
-#img4 {
-  width: 150px; }
-
-#img5 {
-  width: 150px; }
-
-#img6 {
-  width: 150px; }
-
-main section span {
-  text-align: center;
-  margin: 0.65cm 2cm 0.65cm 3.4cm; }
-
 #carouselExampleSlidesOnly {
   width: 99%;
   position: absolute;
@@ -137,6 +58,95 @@ main section span {
 
 .carousel-caption {
   top: 19%; }
+
+main section span {
+  text-align: center;
+  margin: 0.65cm 2cm 0.65cm 3.4cm; }
+
+.paragraph {
+  color: #037c03;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 0.5cm; }
+
+.paragraph__Text--FontSize {
+  font-size: 24px;
+  border: 1px solid #037c03;
+  background-color: #037c03;
+  color: white;
+  margin: 1cm 15cm 1cm 15cm; }
+
+.paragraph__Text {
+  font-size: 22px;
+  margin-top: 0.5cm; }
+
+.paragraph__Img {
+  height: 100px;
+  margin: 0.65cm 1.5cm 0.65cm 3cm;
+  width: 150px; }
+
+@media only screen and (max-width: 480px) {
+  #carouselExampleSlidesOnly {
+    float: left;
+    top: 33%;
+    left: -1%; }
+  #blur {
+    background-image: url(../Fotos/480px/Fondo.jpg);
+    background-repeat: no-repeat;
+    height: 75vh;
+    position: relative;
+    z-index: -1;
+    filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -webkit-filter: blur(3px); }
+  .carousel-item {
+    left: -10%;
+    max-width: 360px;
+    height: 184px; }
+  .carousel-caption {
+    top: -50%; }
+  .fondo-text {
+    font-size: 12px;
+    font-weight: bold;
+    top: 10.4%;
+    left: 12%;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 5px;
+    color: whitesmoke; }
+  .animate__backInDown {
+    animation-duration: 2s;
+    width: 100%;
+    position: absolute;
+    top: 18%; }
+  .animate__fadeIn {
+    animation-duration: 5s; }
+  .fondo_tittle {
+    font-size: 35px;
+    color: #00e213; }
+  main section span {
+    text-align: center;
+    margin: 0.65cm 2cm 0.65cm 3.4cm; }
+  .paragraph {
+    color: #037c03;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0.5cm; }
+  .paragraph__Text--FontSize {
+    font-size: 24px;
+    border: 1px solid #037c03;
+    background-color: #037c03;
+    color: white;
+    margin: 1cm 15cm 1cm 15cm; }
+  .paragraph__Text {
+    font-size: 22px;
+    margin-top: 0.5cm; }
+  .paragraph__Img {
+    height: 100px;
+    margin: 0.65cm 1.5cm 0.65cm 3cm;
+    width: 150px; } }
 
 /* Triple Impacto */
 .tripleImpacto {
