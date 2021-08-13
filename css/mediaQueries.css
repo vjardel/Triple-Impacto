@@ -1,47 +1,174 @@
 /* Para dispositivos con pantallas pequeñas, como los teléfonos en modo vertical */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     .logo {
       width: 40px; 
       align-items: flex-end;
     } 
+    /* header */
     #blur {
       background-image: url(../Fotos/480px/Fondo.jpg);
-      background-repeat: no-repeat;
       height: 60vh;
       position: relative; }
     .fondo-text {
       font-size: 10px;
-      font-weight: bold;
-      position: relative;
-      text-align: center;
-      letter-spacing: 4px;
-      color: whitesmoke; }
+      letter-spacing: 4px;}
     .fondo_tittle {
-      font-size: 35px;
-      color: #00e213; }
+      font-size: 35px; }
     .alingCarousel {
-      position: absolute;
       top: 31%;
       left: 17%; }
     .d-block {
       width: 250px; }
     main section span {
-      text-align: center;
       margin: 0.1cm 0.55cm 0.1cm 0.4cm; }
     .paragraph {
-      color: #037c03;
-      text-align: justify;
-      text-align: center;
       font-size: 12px; }
     .paragraph__Text--FontSize {
       font-size: 17px;
-      border: 1px solid #037c03;
-      background-color: #037c03;
-      color: white;
       margin: 0.5cm 0.1cm 0.5cm 0.1cm; }
     .paragraph__Text {
       font-size: 17px; }
     .paragraph__Img {
       height: 70px;
       width: 100px;
-      margin: 0.1cm 0.2cm 0.1cm 0.3cm; } }
+      margin: 0.1cm 0.2cm 0.1cm 0.3cm; }
+
+      /* servicios */
+
+    #sociales {
+      font-size: 17px; }
+    #ambientales {
+      font-size: 17px; }
+    #formación {
+      font-size: 17px; }
+    #estrategia {
+      font-size: 17px; }
+    #marketing {
+      font-size: 17px; }
+    .servicios__row {
+      margin: 0.3cm 0.01cm 0.3cm 0.01cm;
+      width: 9cm; }
+    .servicios__margin {
+      margin: 0cm 0.1cm 0 0.1cm;
+      font-size: 12px; }
+    .servicios__margin--margin {
+      margin: 0cm 0.6cm 0cm 0.1cm;
+      font-size: 12px; }
+    .tripleImpacto__img {
+      height: 120px;
+      width: 130px; }
+    /* Triple Impacto */
+    .tripleImpacto__row{
+      margin: 0.3cm 0.01cm 0.3cm 0.01cm;
+      width: 9cm;}
+    .tripleImpacto__column{
+      margin: 0cm 0.1cm 0 0.1cm;
+      font-size: 12px;}
+    .tripleImpacto__h3{
+      font-size: 17px;
+    }
+
+    /* Footer */
+
+    .footer__privacidad {
+      font-size: 8px;
+      margin: 0.4cm 0.01cm 0cm 0.01cm; }
+    .footer__contacto {
+      font-size: 8px;}
+    .footer__img {
+      width: 25px;
+      height: 25px; }
+    .footer__imgDos {
+      width: 10px;
+      height: 10px; }
+    .footer__imgTwt {
+      width: 15px;
+      height: 15px; } 
+    }
+     
+      @media (min-width: 576px) {
+        .logo {
+          width: 50px; 
+          align-items: flex-end;
+        } 
+        /* header */
+        #blur {
+          background-image: url(../Fotos/640px/Fondo.jpg);
+          height: 80vh;}
+        .fondo-text {
+          font-size: 13px;
+          letter-spacing: 6px; }
+        .fondo_tittle {
+          font-size: 40px; }
+        .alingCarousel {
+          top: 39%;
+          left: 27%; }
+        .d-block {
+          width: 285px; }
+        main section span {
+          margin: 0.1cm 0.55cm 0.1cm 0.4cm; }
+        .paragraph {
+          font-size: 12px; }
+        .paragraph__Text--FontSize {
+          font-size: 17px;
+          margin: 0.5cm 0.1cm 0.5cm 0.1cm; }
+        .paragraph__Text {
+          font-size: 17px; }
+        .paragraph__Img {
+          height: 70px;
+          width: 100px;
+          margin: 0.1cm 0.2cm 0.1cm 0.3cm; }
+
+        /* servicios */
+
+        #sociales {
+          font-size: 22px; }
+        #ambientales {
+          font-size: 22px; }
+        #formación {
+          font-size: 22px; }
+        #estrategia {
+          font-size: 22px; }
+        #marketing {
+          font-size: 22px; }
+        .servicios__row {
+          margin: 0.3cm 0.01cm 0.3cm 0.01cm;
+          width: 17cm; }
+        .servicios__margin {
+          margin: 0cm 1cm 0 1cm;
+          font-size: 15px; }
+        .servicios__margin--margin {
+          margin: 0cm 2.5cm 0cm 1cm;
+          font-size: 15px; }
+        .tripleImpacto__img {
+          height: 250px;
+          width: 260px; }
+        /* Triple Impacto */
+        .tripleImpacto__row{
+          margin: 0.3cm 0.01cm 0.3cm 0.01cm;
+          width: 17cm; }
+        .tripleImpacto__column{
+          margin: 0cm 1cm 0 1cm;;
+          font-size: 15px;}
+        .tripleImpacto__h3{
+          font-size: 22px;}
+
+
+          /* Footer */
+
+        .footer__privacidad {
+          font-size: 12px;
+          margin: 0.5cm 0.01cm 0cm 0.01cm; }
+        .footer__contacto {
+          font-size: 10px;}
+        .footer__img {
+          width: 50px;
+          height: 50px; }
+        .footer__imgDos {
+          width: 15px;
+          height: 15px; }
+        .footer__imgTwt {
+          width: 40px;
+          height: 40px; } 
+        }
+      
