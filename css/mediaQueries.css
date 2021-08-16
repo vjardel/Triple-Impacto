@@ -1,5 +1,5 @@
 /* Para dispositivos con pantallas pequeñas, como los teléfonos en modo vertical */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) {
     .logo {
       width: 40px; 
       align-items: flex-end;
@@ -85,6 +85,11 @@
       width: 15px;
       height: 15px; } 
     }
+  @media only screen and (min-width: 374px){
+    #blur {
+      background-image: url(../Fotos/480px/Fondodos.jpg);
+      height: 50vh;}
+    }
      
       @media (min-width: 576px) {
         .logo {
@@ -94,7 +99,7 @@
         /* header */
         #blur {
           background-image: url(../Fotos/640px/Fondo.jpg);
-          height: 80vh;}
+          height: 100vh;}
         .fondo-text {
           font-size: 13px;
           letter-spacing: 6px; }
@@ -171,4 +176,401 @@
           width: 40px;
           height: 40px; } 
         }
-      
+@media (min-width: 600px){
+  .logo {
+    width: 75px; 
+  } 
+  /* header */
+  #blur {
+    background-image: url(../Fotos/768px/Fondo.jpg);
+    height: 60vh;}
+  .fondo-text {
+    font-size: 17px;
+    letter-spacing: 8px; }
+  .fondo_tittle {
+    font-size: 60px; }
+  .alingCarousel {
+    top: 33%;
+    left: 17%; }
+  .d-block {
+    width: 500px; }
+  main section span {
+    margin: 0.5cm 0.9cm 0.5cm 0.9cm; }
+  .paragraph {
+    font-size: 20px; }
+  .paragraph__Text--FontSize {
+    font-size: 23px;
+    margin: 0.5cm 0.1cm 0.5cm 0.1cm; }
+  .paragraph__Text {
+    font-size: 20px; }
+  .paragraph__Img {
+    height: 140px;
+    width: 200px;
+    margin: 0.5cm 0.2cm 0.1cm 0.3cm; }
+
+  /* servicios */
+
+  #sociales {
+    font-size: 30px; }
+  #ambientales {
+    font-size: 30px; }
+  #formación {
+    font-size: 30px; }
+  #estrategia {
+    font-size: 30px; }
+  #marketing {
+    font-size: 30px; }
+  .servicios__row {
+    margin: 0.3cm 0.01cm 0.3cm 0.01cm;
+    width: 20cm; }
+  .servicios__margin {
+    margin: 0cm 1cm 0 1cm;
+    font-size: 20px; }
+  .servicios__margin--margin {
+    margin: 0cm 2.5cm 0cm 1cm;
+    font-size: 20px; }
+  .tripleImpacto__img {
+    height: 250px;
+    width: 260px; }
+  /* Triple Impacto */
+  .tripleImpacto__h3{
+    font-size: 30px;}
+  .tripleImpacto__column{
+    margin: 0cm 1cm 0 1cm;;
+    font-size: 20px;}
+  .tripleImpacto__row{
+    margin: 0.3cm 0.01cm 0.3cm 0.01cm;
+    width: 20cm; }
+
+    /* Footer */
+
+  .footer__privacidad {
+    font-size: 15px;
+    margin: 0.5cm 0.01cm 0cm 0.01cm; }
+  .footer__contacto {
+    font-size: 15px;}
+  .footer__img {
+    width: 75px;
+    height: 75px; }
+  .footer__imgDos {
+    width: 19px;
+    height: 19px; }
+  .footer__imgTwt {
+    width: 50px;
+    height: 50px; } 
+}
+@media (min-width: 678px){
+  .logo {
+    width: 70px; 
+  } 
+  #blur {
+    background-image: url(../Fotos/640px/Fondo-hori.jpg);
+    height: 105vh;
+  }
+  .alingCarousel {
+    top: 34%;
+    left: 26%; }
+  .d-block {
+    width: 375px; }
+}
+
+@media (min-height: 1024px){
+  .logo {
+    width: 85px; 
+  } 
+  .nav-item{
+    font-size: 25px;
+  }
+  .dropdown-item{
+    font-size: 20px;
+  }
+  /* header */
+  #blur {
+    background-image: url(../Fotos/1024PX/fondoipodpro.jpg);
+    height: 75vh;}
+  .fondo-text {
+    font-size: 27px;
+    letter-spacing: 12px; }
+  .fondo_tittle {
+    font-size: 90px; }
+  .alingCarousel {
+    top: 45%;
+    left: 11%; }
+  .d-block {
+    width: 800px; }
+    main section span {
+      margin: 0.5cm 0.9cm 0.5cm 0.9cm; }
+    .paragraph {
+      font-size: 25px; }
+    .paragraph__Text--FontSize {
+      font-size: 30px;
+      margin: 0.5cm 0.1cm 0.5cm 0.1cm; }
+    .paragraph__Text {
+      font-size: 25px; }
+    .paragraph__Img {
+      height: 200px;
+      width: 260px;
+      margin: 0.5cm 1cm 0.1cm 1cm;  }
+  
+    /* servicios */
+  
+    #sociales {
+      font-size: 40px; }
+    #ambientales {
+      font-size: 40px; }
+    #formación {
+      font-size: 40px; }
+    #estrategia {
+      font-size: 40px; }
+    #marketing {
+      font-size: 40px; }
+    .servicios__row {
+      margin: 0.3cm 0.5cm 0.3cm 0.5cm;
+      width: 25cm; }
+    .servicios__margin {
+      margin: 0cm 1.5cm 0 1.5cm;
+      font-size: 25px; }
+    .servicios__margin--margin {
+      margin: 0cm 5.5cm 0cm 1cm;
+      font-size: 25px; }
+    .tripleImpacto__img {
+      height: 300px;
+      width: 310px; 
+    }
+    /* Triple Impacto */
+    .tripleImpacto__h3{
+      font-size: 40px;}
+    .tripleImpacto__column{
+      margin: 0cm 2cm 0 2cm;
+      font-size: 25px;}
+    .tripleImpacto__row{
+      margin: 0.3cm 0.5cm 0.3cm 0.5cm;
+      width: 25cm; }
+  
+      /* Footer */
+  
+    .footer__privacidad {
+      font-size: 22px;
+      margin: 1cm 0.01cm 0cm 0.01cm; }
+    .footer__contacto {
+      font-size: 22px;}
+    .footer__img {
+      width: 80px;
+      height: 80px; }
+    .footer__imgDos {
+      width: 22px;
+      height: 22x; }
+    .footer__imgTwt {
+      width: 55px;
+      height: 55px; } 
+  }
+
+@media (min-width: 768px){
+  #blur {
+    background-image: url(../Fotos/768px/Fondo.jpg);
+    height: 60vh;}
+  .alingCarousel {
+    top: 27%;
+    left: 17%; }
+  .d-block {
+    width: 500px; }
+}
+
+@media (min-width: 992px){
+  .logo {
+    width: 85px; 
+  } 
+  /* header */
+  #blur {
+    background-image: url(../Fotos/768px/fondo-horizontal.jpg);
+    height: 86vh;}
+  .fondo-text {
+    font-size: 20px;
+    letter-spacing: 10px; }
+  .fondo_tittle {
+    font-size: 70px; }
+  .alingCarousel {
+    top: 33%;
+    left: 21%; }
+  .d-block {
+    width: 600px; }
+  main section span {
+    margin: 0.5cm 0.9cm 0.5cm 0.9cm; }
+  .paragraph {
+    font-size: 20px; }
+  .paragraph__Text--FontSize {
+    font-size: 23px;
+    margin: 0.5cm 0.1cm 0.5cm 0.1cm; }
+  .paragraph__Text {
+    font-size: 20px; }
+  .paragraph__Img {
+    height: 140px;
+    width: 200px;
+    margin: 0.5cm 0.2cm 0.1cm 0.3cm; }
+
+  /* servicios */
+
+  #sociales {
+    font-size: 30px; }
+  #ambientales {
+    font-size: 30px; }
+  #formación {
+    font-size: 30px; }
+  #estrategia {
+    font-size: 30px; }
+  #marketing {
+    font-size: 30px; }
+  .servicios__row {
+    margin: 0.3cm 0.5cm 0.3cm 0.5cm;
+    width: 25cm; }
+  .servicios__margin {
+    margin: 0cm 1.5cm 0 1.5cm;
+    font-size: 20px; }
+  .servicios__margin--margin {
+    margin: 0cm 5.5cm 0cm 1cm;
+    font-size: 20px; }
+  .tripleImpacto__img {
+    height: 250px;
+    width: 260px; 
+  }
+  /* Triple Impacto */
+  .tripleImpacto__h3{
+    font-size: 30px;}
+  .tripleImpacto__column{
+    margin: 0cm 1.5cm 0 1.5cm;
+    font-size: 20px;}
+  .tripleImpacto__row{
+    margin: 0.3cm 0.5cm 0.3cm 0.5cm;
+    width: 25cm; }
+
+    /* Footer */
+
+  .footer__privacidad {
+    font-size: 17px;
+    margin: 0.5cm 0.01cm 0cm 0.01cm; }
+  .footer__contacto {
+    font-size: 16px;}
+  .footer__img {
+    width: 75px;
+    height: 75px; }
+  .footer__imgDos {
+    width: 19px;
+    height: 19px; }
+  .footer__imgTwt {
+    width: 50px;
+    height: 50px; } 
+}
+@media (min-width: 1022px){
+  #blur {
+    background-image: url(../Fotos/1024PX/Fondo-hori.jpg);
+    height: 86vh;}
+  .fondo-text {
+    font-size: 20px;
+    letter-spacing: 10px; }
+  .fondo_tittle {
+    font-size: 70px; }
+  .alingCarousel {
+    top: 33%;
+    left: 21%; }
+  .d-block {
+    width: 600px; }
+}
+
+
+@media (min-width: 1300px){
+  .logo {
+    width: 85px; 
+  } 
+  .nav-item{
+    font-size: 25px;
+  }
+  .dropdown-item{
+    font-size: 20px;
+  }
+  /* header */
+  #blur {
+    background-image: url(../Fotos/1024PX/Fondo-hori.jpg);
+    height: 99vh;}
+  .fondo-text {
+    font-size: 30px;
+    letter-spacing: 15px; }
+  .fondo_tittle {
+    font-size: 100px; }
+  .alingCarousel {
+    top: 33%;
+    left: 20%; }
+  .d-block {
+    width: 800px; }
+  main section span {
+    margin: 0.5cm 2.3cm 0.5cm 1.8cm; }
+  .paragraph {
+    font-size: 25px; }
+  .paragraph__Text--FontSize {
+    font-size: 30px;
+    margin: 1cm 0cm 1cm 0cm; }
+  .paragraph__Text {
+    font-size: 25px; }
+  .paragraph__Img {
+    height: 200px;
+    width: 260px;
+    margin: 0.5cm 1cm 0.1cm 1cm; }
+
+  /* servicios */
+
+  #sociales {
+    font-size: 50px; }
+  #ambientales {
+    font-size: 50px; }
+  #formación {
+    font-size: 50px; }
+  #estrategia {
+    font-size: 50px; }
+  #marketing {
+    font-size: 50px; }
+  .servicios__row {
+    margin: 0.3cm 1cm 0.3cm 1cm;
+    width: 32cm; }
+  .servicios__margin {
+    margin: 0cm 2cm 0 3cm;
+    font-size: 30px; }
+  .servicios__margin--margin {
+    margin: 0cm 6cm 0cm 0cm;
+    font-size: 30px; }
+  .tripleImpacto__img {
+    height: 300px;
+    width: 310px; 
+  }
+  /* Triple Impacto */
+  .tripleImpacto__h3{
+    font-size: 50px;}
+  .tripleImpacto__column{
+    margin: 0cm 2cm 0 1cm;
+    font-size: 30px;}
+  .tripleImpacto__row{
+    margin: 0.3cm 3cm 0.3cm 3cm;
+    width: 31cm; }
+
+    .form-group{
+      font-size: 22px;
+    }
+    .form-check{
+      font-size: 22px;
+    }
+  
+    /* Footer */
+
+  .footer__privacidad {
+    font-size: 22px;
+    margin: 1cm 0.01cm 0cm 0.01cm; }
+  .footer__contacto {
+    font-size: 22px;}
+  .footer__img {
+    width: 80px;
+    height: 80px; }
+  .footer__imgDos {
+    width: 22px;
+    height: 22x; }
+  .footer__imgTwt {
+    width: 55px;
+    height: 55px; } 
+}
