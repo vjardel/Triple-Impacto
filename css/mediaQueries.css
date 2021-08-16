@@ -176,7 +176,7 @@
           width: 40px;
           height: 40px; } 
         }
-@media (min-width: 600px){
+@media (min-width: 661px){
   .logo {
     width: 75px; 
   } 
@@ -477,100 +477,212 @@
 }
 
 
-@media (min-width: 1300px){
-  .logo {
-    width: 85px; 
-  } 
-  .nav-item{
-    font-size: 25px;
-  }
-  .dropdown-item{
-    font-size: 20px;
-  }
-  /* header */
+@media (min-width: 1310px){
   #blur {
-    background-image: url(../Fotos/1024PX/Fondo-hori.jpg);
-    height: 99vh;}
+    background-image: url(../Fotos/Fondo.png);
+    width: 100%;
+    height: 110vh;}
+  
   .fondo-text {
-    font-size: 30px;
-    letter-spacing: 15px; }
+    font-size: 25px;
+    letter-spacing: 10px;; }
+  
   .fondo_tittle {
-    font-size: 100px; }
+    font-size: 75px; }
+  
   .alingCarousel {
-    top: 33%;
-    left: 20%; }
-  .d-block {
-    width: 800px; }
+    top: 35%;
+    left: 27%; }
+  
   main section span {
-    margin: 0.5cm 2.3cm 0.5cm 1.8cm; }
+    margin: 0.65cm 2cm 0.65cm 3.4cm; }
+  
   .paragraph {
-    font-size: 25px; }
+    color: #037c03;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0.5cm; }
+  
   .paragraph__Text--FontSize {
-    font-size: 30px;
+    font-size: 24px;
     margin: 1cm 0cm 1cm 0cm; }
+  
   .paragraph__Text {
-    font-size: 25px; }
+    font-size: 22px;
+    margin-top: 0.5cm; }
+  
   .paragraph__Img {
-    height: 200px;
-    width: 260px;
-    margin: 0.5cm 1cm 0.1cm 1cm; }
-
-  /* servicios */
-
-  #sociales {
-    font-size: 50px; }
-  #ambientales {
-    font-size: 50px; }
-  #formación {
-    font-size: 50px; }
-  #estrategia {
-    font-size: 50px; }
-  #marketing {
-    font-size: 50px; }
-  .servicios__row {
-    margin: 0.3cm 1cm 0.3cm 1cm;
-    width: 32cm; }
-  .servicios__margin {
-    margin: 0cm 2cm 0 3cm;
-    font-size: 30px; }
-  .servicios__margin--margin {
-    margin: 0cm 6cm 0cm 0cm;
-    font-size: 30px; }
+    height: 100px;
+    margin: 0.65cm 1.5cm 0.65cm 3cm;
+    width: 150px; }
+  
+  /* Triple Impacto */
+  #paddingTriple {
+    padding-right: 3px;
+    padding-left: 3px; }
+  
+  .tripleImpacto {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0; }
+  
+  .tripleImpacto__row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    margin: 0.5cm 5cm 0.5cm 5cm;
+    justify-content: center; }
+  
+  .tripleImpacto__column {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 0.5cm 0 1cm; }
+  
   .tripleImpacto__img {
     height: 300px;
-    width: 310px; 
-  }
-  /* Triple Impacto */
-  .tripleImpacto__h3{
-    font-size: 50px;}
-  .tripleImpacto__column{
-    margin: 0cm 2cm 0 1cm;
-    font-size: 30px;}
-  .tripleImpacto__row{
-    margin: 0.3cm 3cm 0.3cm 3cm;
-    width: 31cm; }
-
-    .form-group{
-      font-size: 22px;
-    }
-    .form-check{
-      font-size: 22px;
-    }
+    width: 320px; }
   
-    /* Footer */
+  /* Servicios */
+  #paddingService {
+    padding-right: 3px;
+    padding-left: 3px; }
+  
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0; }
+  
+  .servicios__row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5cm 5cm 0.5cm 5cm;
+    width: 26cm; }
+  
+  .servicios__margin {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 0.5cm 0 1cm; }
+  
+  .servicios__margin--margin {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 10cm 0cm 1cm; }
+}
 
-  .footer__privacidad {
+@media (min-width: 1300px){
+  #blur {
+    background-image: url(../Fotos/Fondo.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 99vh;
+    position: relative; }
+  
+  .fondo-text {
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    letter-spacing: 10px;
+    color: whitesmoke; }
+  
+  .fondo_tittle {
+    font-size: 75px;
+    color: #00e213; }
+  
+  .alingCarousel {
+    position: absolute;
+    top: 32%;
+    left: 30%; }
+  
+  main section span {
+    text-align: center;
+    margin: 0.65cm 2cm 0.65cm 3.4cm; }
+  
+  .paragraph {
+    color: #037c03;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0.5cm; }
+  
+  .paragraph__Text--FontSize {
+    font-size: 24px;
+    border: 1px solid #037c03;
+    background-color: #037c03;
+    color: white;
+    margin: 1cm 15cm 1cm 15cm; }
+  
+  .paragraph__Text {
     font-size: 22px;
-    margin: 1cm 0.01cm 0cm 0.01cm; }
-  .footer__contacto {
-    font-size: 22px;}
-  .footer__img {
-    width: 80px;
-    height: 80px; }
-  .footer__imgDos {
-    width: 22px;
-    height: 22x; }
-  .footer__imgTwt {
-    width: 55px;
-    height: 55px; } 
+    margin-top: 0.5cm; }
+  
+  .paragraph__Img {
+    height: 100px;
+    margin: 0.65cm 1.5cm 0.65cm 3cm;
+    width: 150px; }
+  
+  /* Triple Impacto */
+  #paddingTriple {
+    padding-right: 3px;
+    padding-left: 3px; }
+  
+  .tripleImpacto {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0; }
+  
+  .tripleImpacto__row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    margin: 0.5cm 5cm 0.5cm 5cm;
+    justify-content: center; }
+  
+  .tripleImpacto__column {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 0.5cm 0 1cm; }
+  
+  .tripleImpacto__img {
+    height: 300px;
+    width: 320px; }
+  
+  /* Servicios */
+  #paddingService {
+    padding-right: 3px;
+    padding-left: 3px; }
+  
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0; }
+  
+  .servicios__row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5cm 5cm 0.5cm 5cm;
+    width: 26cm; }
+  
+  .servicios__margin {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 0.5cm 0 1cm; }
+  
+  .servicios__margin--margin {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0cm 10cm 0cm 1cm; }
 }
