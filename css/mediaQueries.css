@@ -335,7 +335,7 @@
       width: 40px;
       height: 40px; } 
 }
-@media (min-width: 812px)  and (max-width:824px) and (orientation: landscape) {
+@media (min-width: 812px)  and (max-width:904px) and (orientation: landscape) {
   .logo {
     width: 50px; } 
   /* header */
@@ -957,7 +957,7 @@
 /* --------------------------------------------------------pc 1366px hori------------------------------------------------------------*/
 @media (min-width: 1055px) and (max-width: 1399.98px) and (orientation: landscape){
     #blur {
-      background-image: url(../Fotos/Fondo.png);
+      background-image: url(../Fotos/Fondo-1284px.jpg);
       width: 100%;
       background-repeat: no-repeat;
       height: 99vh;
